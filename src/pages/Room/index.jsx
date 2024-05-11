@@ -5,8 +5,8 @@ import { ZegoSuperBoardManager } from "zego-superboard-web";
 const RoomPage=() =>{
     const {roomId}=useParams();
     const myMeeting=async (element) =>{
-        const appID= 194356177;
-        const serverSecret="b2cbe30d8587066ee3e0538bf53fcbba";
+        const appID= ;//put appID here
+        const serverSecret="";//put key here
         const kitToken=ZegoUIKitPrebuilt.generateKitTokenForTest(appID,serverSecret,roomId,Date.now().toString(),"Nidhi");
         const zc = ZegoUIKitPrebuilt.create(kitToken);
         zc.addPlugins({ZegoSuperBoardManager});
