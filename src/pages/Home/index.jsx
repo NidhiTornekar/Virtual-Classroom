@@ -10,7 +10,7 @@ const HomePage = () =>{
    
 return( <div className="home">
         <div className='head'><h1>KESHAV MEMORIAL MEDICAL COLLEGE</h1></div>
-        <h1>VIRTUAL CLASSROOMS FOR MEDICAL STUDENTS</h1>
+        <h1>VIRTUAL CLASSROOM FOR TRAINING MEDICAL STUDENTS</h1>
         <div className="no">
             <br/>
         </div>
